@@ -24,6 +24,7 @@ basic.forever(function () {
         . # # # .
         . # # # .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Red))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -31,6 +32,7 @@ basic.forever(function () {
         # # # # #
         # # # # #
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Green))
     basic.showLeds(`
         . . . . .
         # # # # #
@@ -38,6 +40,7 @@ basic.forever(function () {
         # # # # #
         # # # # #
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Indigo))
     basic.showLeds(`
         # # # # #
         # # # # #
@@ -45,6 +48,7 @@ basic.forever(function () {
         # # # # #
         # # # # #
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Violet))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -52,6 +56,7 @@ basic.forever(function () {
         . . . . .
         . . # . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Purple))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -59,6 +64,7 @@ basic.forever(function () {
         . # . # .
         . . # . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Red))
     basic.showLeds(`
         . . # . .
         . # . # .
@@ -66,6 +72,7 @@ basic.forever(function () {
         . # . # .
         . . # . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Orange))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -73,6 +80,7 @@ basic.forever(function () {
         . . . . .
         . . . . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Red))
     basic.showLeds(`
         . . . . .
         . # . . .
@@ -80,6 +88,7 @@ basic.forever(function () {
         . . . . .
         . . . . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Purple))
     basic.showLeds(`
         . . . . .
         . # . . .
@@ -87,6 +96,7 @@ basic.forever(function () {
         . . . . .
         . . . . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Yellow))
     basic.showLeds(`
         . . . . .
         . # . . .
@@ -94,6 +104,7 @@ basic.forever(function () {
         . . . # .
         . . . . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Blue))
     basic.showLeds(`
         . . . . .
         . # . . .
@@ -101,6 +112,7 @@ basic.forever(function () {
         . . . # .
         . . . . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Green))
     basic.showLeds(`
         . . . . .
         . # . # .
@@ -108,6 +120,7 @@ basic.forever(function () {
         . . . # .
         . . . . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Orange))
     basic.showLeds(`
         . . . . .
         . # . # .
@@ -115,4 +128,5 @@ basic.forever(function () {
         . # . # .
         . . . . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Indigo))
 })
