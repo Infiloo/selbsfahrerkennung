@@ -8,6 +8,7 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
+    Rover.setALLRGB(Rover.colors(RoverColors.Orange))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -15,6 +16,7 @@ basic.forever(function () {
         . . . . .
         . . # . .
         `)
+    Rover.setALLRGB(Rover.colors(RoverColors.Blue))
     basic.showLeds(`
         . . . . .
         . . . . .
